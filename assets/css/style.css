@@ -468,7 +468,8 @@ h1 span {
     padding-left: 20px;
 }
 .d2c_customer_info p span {
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-weight: normal;
 }
 .d2c_testimonial_content {
     color: var(--color_two);
