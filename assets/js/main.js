@@ -159,16 +159,16 @@ function updateSliceShow() {
     var $defaultShow, $sliceShow;
   
     if (windowWidth < 768) {
-      $defaultShow = 1;
+      $defaultShow = 7;
       $sliceShow = 1;
     } else if (windowWidth < 992) {
-      $defaultShow = 2;
+      $defaultShow = 7;
       $sliceShow = 2;
     } else if (windowWidth < 1200) {
-      $defaultShow = 6;
+      $defaultShow = 7;
       $sliceShow = 3;
     } else {
-      $defaultShow = 6;
+      $defaultShow = 7;
       $sliceShow = 3;
     }
   
@@ -209,13 +209,3 @@ function updateSliceShow() {
     load_more(".d2c_services_wrapper", ".service", ".d2c_service_btn" ,"#d2c_service_more", sliceDefault, sliceShow);
     load_more(".d2c_blog_wrapper", ".blog", ".d2c_blog_btn" ,"#d2c_blog_more", sliceDefault, sliceShow);
   });
-
-
-
-
-// Template Name: {{ReactProx- React Developer Portfolio Website Templates}}
-// Template URL: {{https://designtocodes.com/product/reactprox-react-developer-portfolio-website-templates}}
-// Description: {{Purchase your ReactProx- React Developer Portfolio and get seamless integration for react projects plus top-notch portfolio as well.}}
-// Author: DesignToCodes
-// Author URL: https://www.designtocodes.com
-// Text Domain: {{ React Prox }}

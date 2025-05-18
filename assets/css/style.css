@@ -957,12 +957,11 @@ h1 span {
 }
 /* Scroll Button End */
 
+/* custom */
 
-/* 
-    Template Name: {{ReactProx- React Developer Portfolio Website Templates}}
-    Template URL: {{https://designtocodes.com/product/reactprox-react-developer-portfolio-website-templates}}
-    Description: {{Purchase your ReactProx- React Developer Portfolio and get seamless integration for react projects plus top-notch portfolio as well.}}
-    Author: DesignToCodes
-    Author URL: https://www.designtocodes.com
-    Text Domain: {{ React Prox }}
- */
+.p-color {
+    color: var(--primary_color);
+}
+.d-color {
+    color: var(--default_color);
+}
