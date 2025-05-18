@@ -965,3 +965,18 @@ h1 span {
 .d-color {
     color: var(--default_color);
 }
+
+.skill-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skill-img-container {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.skill-img {
+    width: 100%;
+    object-fit: cover;
+}
