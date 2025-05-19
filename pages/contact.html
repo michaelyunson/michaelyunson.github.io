@@ -118,22 +118,22 @@
                         <form class="row needs-validation" novalidate>
                             <div class="col-md-6">
                                 <label for="validationCustomFirstName" class="form-label mb-3">First Name</label>
-                                <input type="text" class="form-control" id="validationCustomFirstName" autocomplete="off" placeholder="First Name" required>
+                                <input type="text" name="first_name" class="form-control" id="validationCustomFirstName" autocomplete="off" placeholder="First Name" required>
                                 <input type="hidden" name="email_to" value="michaeljabonitejyunson@gmail.com" required>
                             </div>
                             <div class="col-md-6">
                                 <label for="validationCustomLastName" class="form-label mb-3">Last Name</label>
-                                <input type="text" class="form-control" id="validationCustomLastName" autocomplete="off" placeholder="Last Name" required>
+                                <input type="text" name="last_name" class="form-control" id="validationCustomLastName" autocomplete="off" placeholder="Last Name" required>
                             </div>
                             <div class="col-md-12">
                                 <label for="validationCustomEmail" class="form-label mb-3">Email Address</label>
                                 <div class="input-group has-validation">
-                                    <input type="email" class="form-control" id="validationCustomEmail" autocomplete="on" placeholder="Hello@mail.com" required>
+                                    <input type="email" name="from" class="form-control" id="validationCustomEmail" autocomplete="on" placeholder="Hello@mail.com" required>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <label for="validationCustomMessage" class="form-label mb-3">Message</label>
-                                <textarea class="form-control" rows="4" id="validationCustomMessage" placeholder="Type message here..." required></textarea>
+                                <textarea class="form-control" name="message" rows="4" id="validationCustomMessage" placeholder="Type message here..." required></textarea>
                                 <button class="btn" type="submit">Send Message</button>
                             </div>
                         </form>
