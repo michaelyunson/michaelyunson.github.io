@@ -79,6 +79,8 @@ responsive: [
 });
 
 // Form Validation Js
+(function(){ emailjs.init("izPMWdBfrTL23L46R"); })();
+
 (function () {
     'use strict'
   
@@ -90,9 +92,18 @@ responsive: [
           if (!form.checkValidity()) {
             event.preventDefault()
             event.stopPropagation()
+          } else {
+            event.preventDefault();
+
+            emailjs.sendForm("service_mk82tgh", "template_3q97p0g", this)
+            .then(function(response) {
+              alert("Email sent successfully!");
+              form.reset();
+            }, function(error) {
+              alert("FAILED to send email. Error: " + JSON.stringify(error));
+            });
           }
-  
-          form.classList.add('was-validated')
+          // form.classList.add('was-validated')
         }, false)
     })
 })();
