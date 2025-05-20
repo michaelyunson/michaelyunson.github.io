@@ -282,7 +282,7 @@ h1 span {
     position: relative;
 }
 .d2c_hero_wrapper h6::before {
-    content: url(../images/hero_props.svg);
+    /* content: url(../images/hero_props.svg); */
     position: absolute;
     top: -100px;
     right: 150px;
